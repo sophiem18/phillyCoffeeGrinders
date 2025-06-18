@@ -18,3 +18,5 @@ I thought it would be cool to have a place for people that are WFH to rank their
 It is all for fun and just something I wanted to try out. 
 
 If I were to expand on this project, I would definitely improve the front end, A LOT. Thanks for reading this! Take a look around the site. 
+
+P.S. I was not using Git or any sort of version control because we were not told to. Now I realize I probably should have been and showing all of my progress. But hey, you live and you learn!
