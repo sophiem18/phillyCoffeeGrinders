@@ -1,0 +1,127 @@
+/* Cafe component styling */
+.cafe {
+    background: #fff8e1; /* Soft beige background */
+    border: 2px solid #e1caad;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add subtle scale effect on hover */
+.cafe:hover {
+    transform: scale(1.02);
+}
+
+/* Cafe Name */
+.cafeName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5c3913;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Neighborhood Text */
+.cafeNeighborhood {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #7a5734;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Change color on hover */
+.cafeNeighborhood:hover {
+    color: #b08354;
+}
+
+/* Cafe Description */
+.cafeDescription {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #5c3913;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Cafe Image */
+.cafe img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto;
+    border-radius: 8px;
+    border: 1px solid #e1caad;
+}
+
+/* Image Select Dropdown */
+select {
+    width: 100%;
+    max-width: 250px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    background: #fff;
+    border: 2px solid #e1caad;
+    border-radius: 5px;
+    color: #5c3913;
+    cursor: pointer;
+    display: block;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+/* Hover and focus effects for select */
+select:hover, select:focus {
+    background: #f7e7d0;
+    border-color: #d4ac6e;
+}
+
+/* Average Price */
+.avgPrice {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5c3913;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Increase Price Button */
+.priceButton {
+    background: #e1caad;
+    color: #5c3913;
+    font-weight: bold;
+    border: 2px solid #b08354;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0.5rem auto;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+/* Button Hover Effect */
+.priceButton:hover {
+    background: #d4ac6e;
+    transform: scale(1.05);
+}
+
+/* Button Active Effect */
+.priceButton:active {
+    background: #b08354;
+    transform: scale(0.98);
+}
+
+/* Responsive Design (Desktop) */
+@media only screen and (min-width: 38rem) {
+    .cafe {
+        max-width: 600px;
+    }
+}
